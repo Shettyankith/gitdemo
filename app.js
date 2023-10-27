@@ -3,11 +3,11 @@ let btn=document.querySelector("button");
 ul=document.querySelector("ul");
 let state;
 
-// btn.addEventListener("click",async ()=>{
-//     state=document.querySelector("input").value;
-//     let list=await collegeDetails(state);
-//     printList(list);
-// })
+btn.addEventListener("click",async ()=>{
+    state=document.querySelector("input").value;
+    let list=await collegeDetails(state);
+    printList(list);
+})
 
 
 function printList(list){
