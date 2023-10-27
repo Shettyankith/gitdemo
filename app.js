@@ -10,14 +10,14 @@ let state;
 // })
 
 
-// function printList(list){
-//     ul.innerText=" ";
-//     for(li of list){
-//         let element=document.createElement("li")
-//         element.innerText=li.name;
-//         ul.append(element)
-//     }
-// }
+function printList(list){
+    ul.innerText=" ";
+    for(li of list){
+        let element=document.createElement("li")
+        element.innerText=li.name;
+        ul.append(element)
+    }
+}
 
 // async function collegeDetails(country){
 //     try{
